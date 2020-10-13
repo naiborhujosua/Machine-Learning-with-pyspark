@@ -16,6 +16,6 @@ The SparkSession class has a version attribute which gives the version of Spark.
 Loading the Data
 ---
 ![Reading the data from csv](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/loadthedata.png)
-1. We can load the data that is formed in the dataframe using read.csv method which is provided by SparkSession. There are few methods that are extremely useful such as count(),show(), and printSchema(). We can also use dtypes attribute like in pandas to know the column type.
+1. We can load the data that is formed in the dataframe using read.csv method which is provided by SparkSession. There are few methods that are extremely useful such as count() which is used to count how many records in a dataframe ,show() used the dataframe records, and printSchema() to print the schema of our data. We can also use dtypes attribute like in pandas to know the column type.
 ---
 <br><br>
