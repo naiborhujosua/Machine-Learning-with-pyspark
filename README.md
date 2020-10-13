@@ -25,6 +25,7 @@ Data Preparation
 Data Preparation is essential to do before implementing Machine Learning algorithm. A good quality of data can influence the performance of our result. In Spark, we could prepare the data by cleaning few factors such as removing the null values, changing datatype of a column. 
 
 ![Clean the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/removedata.jpeg)
+<br>
 We will be building model by physical characteristics so that we will remove the maker and model columns. We can use drop method  to remove the columns as shown  below:
 ![Remove the columns](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/dropcolumns.png)
 
