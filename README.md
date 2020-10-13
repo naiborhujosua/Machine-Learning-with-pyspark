@@ -46,9 +46,28 @@ We can index the categorical data using StringIndexer method  to change the stri
 Transforming the data using vector assembler
 --
 ![Transforming the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/assembling.png)
+<br>
+
+## Implementing Machine Learning Algorithm:
+We can implement Machine learning algorithm through this processes: 
+---
+1. Splitting the data
+After cleaning the data, we will implment machine learning algorithm. In this course, we will use Decision Tree as our algorithm. One thing we should remember before implementing the algorithm is splitting our data into two parts namely training and test data. We will use this in order to avoid data leakage. 
+We can use RandomSplit method which is provided by Spark. 
+![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/splitdata.png)
+
+2. Implementing Decision Tree can use training data and test data using transform method
+![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/Dtimplementation.png)
+![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/testdata.png)
 
 
+## Evaluate the Decision Tree 
+![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/confusionmatrix.png)
+We can evaluate the Decision Tree using confusion matrix which consists of 4 elements such as 
+1. True Negatives (TN) — model predicts negative outcome & known outcome is negative
+2. True Positives (TP) — model predicts positive outcome & known outcome is positive
+3. False Negatives (FN) — model predicts negative outcome but known outcome is positive
+4. False Positives (FP) — model predicts positive outcome but known outcome is negative.
 
-
-
-
+Based on the confusion matrix as shown above, we can quantify the accuracy through this formula:
+![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/Accuracy.png)
