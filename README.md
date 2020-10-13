@@ -13,3 +13,9 @@ The SparkSession class has a builder attribute, which is an instance of the Buil
 The SparkSession class has a version attribute which gives the version of Spark. It is a good practice to stop the session while we have done process our data in Spark by using stop method as shown in the picture. 
 ---
 <br><br>
+Loading the Data
+---
+![Reading the data from csv](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/loadthedata.png)
+1. We can load the data that is formed in the dataframe using read.csv method which is provided by SparkSession. There are few methods that are extremely useful such as count(),show(), and printSchema(). We can also use dtypes attribute like in pandas to know the column type.
+---
+<br><br>
