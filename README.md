@@ -62,7 +62,7 @@ We can use RandomSplit method which is provided by Spark.
 
 
 ## Evaluate the Decision Tree 
-![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/confusionmatrix.png)
+![Evaluate Algorithm](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/confusionmatrix.png)
 We can evaluate the Decision Tree using confusion matrix which consists of 4 elements such as 
 1. True Negatives (TN) — model predicts negative outcome & known outcome is negative
 2. True Positives (TP) — model predicts positive outcome & known outcome is positive
@@ -77,4 +77,5 @@ Accuracy is generally not a very reliable metric because it can be biased by the
 1. **Precision** is the proportion of positive predictions which are correct. For all flights which are predicted to be delayed, what proportion is actually delayed?
 2. **Recall** is the proportion of positives outcomes which are correctly predicted. For all delayed flights, what proportion is correctly predicted by the model?
 ![Precision and Recall](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/precisionrecall.png)
+
 
