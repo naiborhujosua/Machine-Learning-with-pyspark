@@ -4,8 +4,8 @@
 
 The picture as shown above is the aproach of spark. Spark is general purpose framework for cluster computing. Spark cluster consists of one or more nodes. Each node is a computer with CPU, RAM and physical storage. A cluster Manager is used to coordinate to allocate resources across clusters. Every application on spark has a driver. Driver communicates with Cluster Manager to coordinates tasks.
 
-<br>
-Connecting to Spark
+<br><br>
+ # Connecting to Spark
 ---
 ![Connecting to Spark](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/sparkSession.png)
 1. We can connect to spark by creating a SparkSession which provided by Spark API. 
@@ -13,12 +13,12 @@ The SparkSession class has a builder attribute, which is an instance of the Buil
 The SparkSession class has a version attribute which gives the version of Spark. It is a good practice to stop the session while we have done process our data in Spark by using stop method as shown in the picture. 
 ---
 <br><br>
-Loading the Data
+# Loading the Data
 ---
 ![Reading the data from csv](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/loadthedata.png)
 1. We can load the data that is formed in the dataframe using read.csv method which is provided by SparkSession. There are few methods that are extremely useful such as count() which is used to count how many records in a dataframe ,show() used the dataframe records, and printSchema() to print the schema of our data. We can also use dtypes attribute like in pandas to know the column type.
 ---
-<br>
+<br><br>
 Data Preparation
 ---
 Data Preparation is essential to do before implementing Machine Learning algorithm. A good quality of data can influence the performance of our result. In Spark, we could prepare the data by cleaning few factors such as removing the null values, changing datatype of a column. 
