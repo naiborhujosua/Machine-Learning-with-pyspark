@@ -19,3 +19,19 @@ Loading the Data
 1. We can load the data that is formed in the dataframe using read.csv method which is provided by SparkSession. There are few methods that are extremely useful such as count() which is used to count how many records in a dataframe ,show() used the dataframe records, and printSchema() to print the schema of our data. We can also use dtypes attribute like in pandas to know the column type.
 ---
 <br><br>
+
+Data Preparation
+---
+Data Preparation is essential to do before implementing Machine Learning algorithm. A good quality of data can influence the performance of our result. In Spark, we could prepare the data by cleaning few factors such as removing the null values, changing datatype of a column. 
+
+![Clean the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/removedata.jpeg)
+We will be building model by physical characteristics so that we will remove the maker and model columns. We can use drop method  to remove the columns as shown  below:
+![Remove the columns](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/dropcolumns.png)
+
+Filtering out Missing Values
+--
+Filtering out Missing values is part of data preparation in order to filter the null values. we can use filter method and remove the missing values using dropna method. 
+![Filter out missing values](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/filtermissingvalues.png)
+
+
+
