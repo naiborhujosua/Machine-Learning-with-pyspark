@@ -79,3 +79,31 @@ Accuracy is generally not a very reliable metric because it can be biased by the
 ![Precision and Recall](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/precisionrecall.png)
 
 
+## Turning text into Tables 
+Given a SMS document as shown below. We will train the sms to classify the sms into spam or not.<br>
+![Dataframe](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/dataframe.png)
+We will try to clean the data by manipulating and changing the unimportant parts of the data by implementing tokenizer,stopwords,hashing and IDF befroe implementing Machine Learning Algorithms.
+
+## Cleaning the Data
+![Cleaning the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/cleanthedata.png)
+The picture above shows the implementation of regex and tokenizer to clean our data. We change the all the punctuation characters into a space and do the same thing  to the number. Then we will be implementing the tokenizer to change the the doc into a word. 
+
+## Stop Words and hashing
+![Stopwords and Hashing](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/idfhashing.png)
+1. The hashing trick provides a fast and space-efficient way to map a very large (possibly infinite) set of items (in this case, all words contained in the SMS messages) onto a smaller, finite number of values.
+2. The TF-IDF matrix reflects how important a word is to each document. It takes into account both the frequency of the word within each document but also the frequency of the word across all of the documents in the collection.
+We will get the output shown below : <br>
+![Hashing](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/hashingnum.png)
+
+## Train the Spam Classifier
+Before implementing LogisticRegression, we will split the data into train and test data. 
+![Splitting the sms data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/split%20data.png)
+![Confusion matrix](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/confusionmatrixsms.png)
+
+
+
+
+
+
+
+
