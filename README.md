@@ -70,9 +70,11 @@ We can evaluate the Decision Tree using confusion matrix which consists of 4 ele
 4. False Positives (FP) — model predicts positive outcome but known outcome is negative.
 
 Based on the confusion matrix as shown above, we can quantify the accuracy through this formula:
-![Splitting the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/Accuracy.png)
+![Accuracy](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/Accuracy.png)
 <br><br>
 Accuracy is generally not a very reliable metric because it can be biased by the most common target class. There are two other useful metrics:
 <br>
 1. **Precision** is the proportion of positive predictions which are correct. For all flights which are predicted to be delayed, what proportion is actually delayed?
 2. **Recall** is the proportion of positives outcomes which are correctly predicted. For all delayed flights, what proportion is correctly predicted by the model?
+![Precision and Recall](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/precisionrecall.png)
+
