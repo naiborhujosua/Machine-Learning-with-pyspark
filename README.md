@@ -33,5 +33,22 @@ Filtering out Missing Values
 Filtering out Missing values is part of data preparation in order to filter the null values. we can use filter method and remove the missing values using dropna method. 
 ![Filter out missing values](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/filtermissingvalues.png)
 
+Mutating the columns
+--
+We can mutate the columns using withColumn method . 
+![Mutating the columns](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/mutatingcolumns.png)
+
+Indexing categorical data
+--
+We can index the categorical data using StringIndexer method  to change the string into the numeric columns. 
+![Indexing categorical data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/changingcategoricalcolumn.png)
+
+Transforming the data using vector assembler
+--
+![Transforming the data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/assembling.png)
+
+
+
+
 
 
