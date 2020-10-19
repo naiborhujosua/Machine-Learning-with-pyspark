@@ -100,6 +100,14 @@ Before implementing LogisticRegression, we will split the data into train and te
 ![Splitting the sms data](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/split%20data.png)
 ![Confusion matrix](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/confusionmatrixsms.png)
 
+---
+References
+---
+[Learning Spark 2nd Edition](https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/)<br>
+[Spark  Python API Documentation](https://spark.apache.org/docs/latest/api/python/index.html)
+
+
+
 
 
 
