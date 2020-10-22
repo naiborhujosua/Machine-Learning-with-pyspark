@@ -51,7 +51,7 @@ Transforming the data using vector assembler
 
 ## Implementing Machine Learning Algorithm:
 ![ML Algorithms](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/sparkml.png)
-We can implement Machine learning algorithm through this processes: 
+We can implement Machine learning algorithm through these processes: 
 ---
 
 1. Splitting the data
