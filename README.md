@@ -107,7 +107,9 @@ Before implementing LogisticRegression, we will split the data into train and te
 References
 ---
 [Learning Spark 2nd Edition](https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/)<br>
-[Spark  Python API Documentation](https://spark.apache.org/docs/latest/api/python/index.html)
+[Spark  Python API Documentation](https://spark.apache.org/docs/latest/api/python/index.html)<br>
+[Big Data with PySpark](https://learn.datacamp.com/skill-tracks/big-data-with-pyspark)
+
 
 
 
