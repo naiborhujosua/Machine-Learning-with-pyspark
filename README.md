@@ -2,6 +2,7 @@
 ## Distributed Computing  Techniques:
 ![Implementation of Machine Learning using pyspark](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/spark%20architecture.png)
 
+
 The picture as shown above is the approach of spark. Spark is general purpose framework for cluster computing. Spark cluster consists of one or more nodes. Each node is a computer with CPU, RAM and physical storage. A cluster Manager is used to coordinate to allocate resources across clusters. Every application on spark has a driver. Driver communicates with Cluster Manager to coordinates tasks.
 
 <br><br>
@@ -49,8 +50,10 @@ Transforming the data using vector assembler
 <br>
 
 ## Implementing Machine Learning Algorithm:
+![ML Algorithms](https://github.com/naiborhujosua/Machine-Learning-with-pyspark/blob/main/sparkml.png)
 We can implement Machine learning algorithm through this processes: 
 ---
+
 1. Splitting the data
 After cleaning the data, we will implment machine learning algorithm. In this course, we will use Decision Tree as our algorithm. One thing we should remember before implementing the algorithm is splitting our data into two parts namely training and test data. We will use this in order to avoid data leakage. 
 We can use RandomSplit method which is provided by Spark. 
