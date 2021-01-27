@@ -108,7 +108,8 @@ References
 ---
 [Learning Spark 2nd Edition](https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/)<br>
 [Spark  Python API Documentation](https://spark.apache.org/docs/latest/api/python/index.html)<br>
-[Big Data with PySpark](https://learn.datacamp.com/skill-tracks/big-data-with-pyspark)
+[Big Data with PySpark](https://learn.datacamp.com/skill-tracks/big-data-with-pyspark)<br>
+[PySpark Training](https://training.databricks.com/visualapi.pdf)
 
 
 
